@@ -1,3 +1,7 @@
-import React from "react";
+import React, { ReactNode } from "react";
 
-export const Main = () => <div>Main</div>;
+type Props = {
+  children: ReactNode;
+};
+
+export const Main = ({ children }: Props) => <div>{children}</div>;
