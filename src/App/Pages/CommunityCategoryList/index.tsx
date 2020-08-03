@@ -1,3 +1,4 @@
+import { LayoutTemplate } from "App/Templates/LayoutTemplate";
 import React from "react";
 
-export const CommunityCategoryList = () => <>Community Category List</>;
+export const CommunityCategoryList = () => <LayoutTemplate>Community Category List</LayoutTemplate>;

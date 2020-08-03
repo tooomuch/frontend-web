@@ -1,3 +1,4 @@
+import { LayoutTemplate } from "App/Templates/LayoutTemplate";
 import React from "react";
 
-export const CommunityProfile = () => <>Community Profile</>;
+export const CommunityProfile = () => <LayoutTemplate>Community Profile</LayoutTemplate>;
