@@ -1,3 +1,8 @@
 import React from "react";
+import { MenuList } from "./MenuList";
 
-export const Sidebar = () => <div>Sidebar</div>;
+export const Sidebar = () => (
+  <div>
+    <MenuList />
+  </div>
+);
